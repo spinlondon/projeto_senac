@@ -1,9 +1,6 @@
 @import url('http://yui.yahooapis.com/3.5.0/build/cssreset/cssreset-min.css');
 /*@import url('http://yui.yahooapis.com/3.5.0/build/cssbase/cssbase-min.css');*/
 
-h1{font-family: 'PT Sans Narrow', sans-serif;}
-p{font-family: 'Josefin Sans', sans-serif;}
-
 .fleft{float: left;}
 .fright{float: right;}
 .clear{clear: both;}
@@ -23,27 +20,37 @@ p{font-family: 'Josefin Sans', sans-serif;}
 .w25{ width: 25%;}
 
 .w20{ width: 20%;}
-/*regras template*/
-div#page{ width: 980px; margin: 0 auto;}
 
+/*regras template*/
+div#page { width: 980px; margin: 0 auto;}
+div#page {text-align: center;}
 
 /*div#page div#header div{display:inline-block;}*/
-div#logo {background: red; min-height: 100px;}
+div#logo {min-height: 150px;}
 div#contacts {background: white; color: #300A8F;}
 
-div#menu ul {text-align: left; padding: 10px; background: #300A8F; border-radius: 7px}
-div#menu ul li { display: inline-block; }
+div#menu ul {text-align: left; padding: 10px; background: #300A8F; border-radius: 7px;}
+div#menu ul li { display: inline-block;}
 div#menu ul li:hover a{background: #0DDD11;padding: 5px 15px; border-radius: 7px;}
-div#menu ul li a{ text-decoration: none;color: white; padding: 10px 15px}
+div#menu ul li a { text-decoration: none;color: white; padding: 10px 15px;}
 
 div#banner{min-height: 400px; background: white;}
 
+h1 {color:#300A8F;font-size: 20pt; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
+h1 {font-family: 'PT Sans Narrow', sans-serif;}
+p {font-family: 'Josefin Sans', sans-serif; text-align: center; width: 320px; padding: 10px 0px;}
 
-div#page{text-align: center;}
-h1{color:#300A8F;font-size: 20pt; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"}
-.box a {display: inline-block; background: #300A8F; color:white; border-radius: 10px; padding: 5px 10px; text-decoration: none;}
-.box a:hover{background:#0DDD11; color:#300A8F; padding: 5px 10px; } 
-.box{border: solid  #0DDD11 1px; display: inline-block; padding: 50px 70px; border-radius: 10px;}
+.box {align-items: center; padding:20px 0px}
+
+.box a {display: inline-block; background:  #300A8F;border: solid #0DDD11 2px; color:white; border-radius: 10px; padding: 5px 10px; text-decoration: none; align-content: center;}
+.box a:hover {background:  #0DDD11; color:white; padding: 5px 10px; } 
+.row.texto2 {padding: 10px 80px; background: #0DDD11}
+.imgborder {border: solid #300A8F 2px;} 
+.imgborder:hover{border: solid #0DDD11 2px; opacity: 0.8;}
+.bloco{background-color: #300A8F;}
+.bloco h1{color: white;}
+.bloco p{color: white;}
+#redes{border-radius: 5px;}
 
 /*ESTRUTURAS PERSONALIZADAS*/
 
