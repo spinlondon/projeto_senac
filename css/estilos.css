@@ -1,5 +1,5 @@
 @import url('http://yui.yahooapis.com/3.5.0/build/cssreset/cssreset-min.css');
-/*@import url('http://yui.yahooapis.com/3.5.0/build/cssbase/cssbase-min.css');*/
+@import url('http://yui.yahooapis.com/3.5.0/build/cssbase/cssbase-min.css');
 
 .fleft{float: left;}
 .fright{float: right;}
@@ -29,28 +29,44 @@ div#page {text-align: center;}
 div#logo {min-height: 150px;}
 div#contacts {background: white; color: #300A8F;}
 
-div#menu ul {text-align: left; padding: 10px; background: #300A8F; border-radius: 7px;}
-div#menu ul li { display: inline-block;}
-div#menu ul li:hover a{background: #0DDD11;padding: 5px 15px; border-radius: 7px;}
-div#menu ul li a { text-decoration: none;color: white; padding: 10px 15px;}
+div#menu {text-align: left;background: #300A8F;}
+div#menu  li { display: inline-block; padding: 5px;}
+div#menu  li:hover {background: #0DDD11;}
+div#menu  li a { text-decoration: none; color: white; margin: 20px;}
 
 div#banner{min-height: 400px; background: white;}
 
 h1 {color:#300A8F;font-size: 20pt; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
-h1 {font-family: 'PT Sans Narrow', sans-serif;}
+a {font-family: 'PT Sans Narrow', sans-serif;}
 p {font-family: 'Josefin Sans', sans-serif; text-align: center; width: 320px; padding: 10px 0px;}
 
 .box {align-items: center; padding:20px 0px}
 
-.box a {display: inline-block; background:  #300A8F;border: solid #0DDD11 2px; color:white; border-radius: 10px; padding: 5px 10px; text-decoration: none; align-content: center;}
-.box a:hover {background:  #0DDD11; color:white; padding: 5px 10px; } 
-.row.texto2 {padding: 10px 80px; background: #0DDD11}
+.box a
+{
+	display: inline-block; 
+	background:  #300A8F;
+	border: solid #0DDD11 2px; 
+	color:white; 
+	border-radius: 10px;
+	padding: 5px 5px; 
+	text-decoration: none; 
+	align-content: center;
+}
+.box a:hover {background:  #0DDD11; color:white; } 
+
+.texto2 {padding: 10px 80px; background: #0DDD11}
+
 .imgborder {border: solid #300A8F 2px;} 
 .imgborder:hover{border: solid #0DDD11 2px; opacity: 0.8;}
+
 .bloco{background-color: #300A8F;}
 .bloco h1{color: white;}
 .bloco p{color: white;}
-#redes{border-radius: 5px;}
+
+#redes a{display: inline-block; margin: 4px; position: relative; left: -20px;}
+#redes{position: absolute;}
+
 
 /*ESTRUTURAS PERSONALIZADAS*/
 
