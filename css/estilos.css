@@ -35,8 +35,8 @@ div#menu  li:hover {background: #0DDD11;}
 div#menu  li a { text-decoration: none; color: white; margin: 20px;}
 
 div#banner{min-height: 400px; background: white;}
-div#redes a {display: inline-block;}
-div#redes a:hover{opacity: 0.8}
+div#redes ul li a {display: inline-block; background: none;}
+div#redes ul li a:hover {filter: grayscale (10);}
 
 h1 {color:#300A8F;font-size: 20pt; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
 a {font-family: 'PT Sans Narrow', sans-serif;}
