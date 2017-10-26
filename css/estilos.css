@@ -29,14 +29,18 @@ div#page {text-align: center;}
 div#logo {min-height: 150px;}
 div#contacts {background: white; color: #300A8F;}
 
-div#menu {text-align: left;background: #300A8F;}
-div#menu  li { display: inline-block; padding: 5px;}
+div#menu {text-align: left;background: #300A8F; }
+div#menu  li { display: inline-block; padding: 10px;}
 div#menu  li:hover {background: #0DDD11;}
-div#menu  li a { text-decoration: none; color: white; margin: 20px;}
+div#menu  li a { text-decoration: none; color: white; }
 
-div#banner{min-height: 400px; background: white;}
-div#redes ul li a {display: inline-block; background: none;}
-div#redes ul li a:hover {filter: grayscale (10);}
+div#banner{min-height: 400px; background: white; min-height: 100%;}
+#redes a{display: inline-block; margin: 4px;   font-size: 25pt}
+#redes a:hover { font-size: 40pt; color:#ffffff;}
+
+
+
+
 
 h1 {color:#300A8F;font-size: 20pt; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
 a {font-family: 'PT Sans Narrow', sans-serif;}
@@ -62,12 +66,12 @@ p {font-family: 'Josefin Sans', sans-serif; text-align: center; width: 320px; pa
 .imgborder {border: solid #300A8F 2px;} 
 .imgborder:hover{border: solid #0DDD11 2px; opacity: 0.8;}
 
-.bloco{background-color: #300A8F;}
-.bloco h1{color: white;}
-.bloco p{color: white;}
-
-#redes a{display: inline-block; margin: 4px; position: relative; left: -20px;}
-#redes{position: absolute;}
+#pie{background-color: #300A8F;}
+#pie h1{color: white;}
+#pie p{color: white;}
+ 
+.container{  width: 980px; margin: 0 auto; }
+.row{ padding: 15px 0;}
 
 
 /*ESTRUTURAS PERSONALIZADAS*/
@@ -75,13 +79,23 @@ p {font-family: 'Josefin Sans', sans-serif; text-align: center; width: 320px; pa
 
 
 /*ESTRUTURA RESPONSIVA*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
 	html, body{background: red;}
+	
+	.container{ width:100%;}
+	.w40,.w60,.w50,.w30,.w70,.w33,.w25,.w20,.w100 { width: 100%;}
+
+	
 }
 @media screen and (max-width: 600px) {
 	html, body{background: blue;}
 	div#page{ width: 100%;}
+	.w40,.w60,.w50,.w30,.w70,.w33,.w25,.w20,.w100 { width: 100%;}
 }
 @media screen and (max-width: 480px) {
 	html, body{background: green;}
+	.fleft{ float: none;}
+	
+	.w40,.w60,.w50,.w30,.w70,.w33,.w25,.w20,.w100 { width: 100%;}
 }
+

@@ -7,20 +7,21 @@
 		<meta name="Description" content="descriçao do site">
 		<meta name="Keywords" content="palavras, chave">
 		<title>diagramacao2</title>
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="css/estilos.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
-		<div id="page" class="container w100">
+		<div id="page" >
 			<div id="header">
 				<div class="container">
 
 					<div class="row">
-						<div id="logo" class="w30 fleft" ><a href= "index.html"><img src="images/cnt.jpg" 309px 150px></a></div>
+						<div id="logo" class="w30 fleft" ><a href= "index.html"><img src="images/cnt.jpg" width="100%"></a></div>
 						<div id="contacts" class="w70 fright">
-							<div class="w33 fleft">contact1</div>
-							<div class="w33 fleft">contact2</div>
-							<div class="w33 fleft">contact3</div>
+							<div class="w33 fleft">spinlondon1@hotmail.com</div>
+							<div class="w33 fleft">(11) 9918 13612</div>
+							<div class="w33 fleft">(11) 2620 8792</div>
 							<div class="clear"></div>
 						</div>
 						<div class="clear"></div>
@@ -31,7 +32,7 @@
 				<div class="row">
 					<div id="menu">
 						<ul>
-							<li><a href="#">Home</a></li>
+							<li><a href="#" class="fa fa-home">Home</a></li>
 							<li><a href="#">Quem Somos</a></li>
 							<li><a href="#">Fale Conosco</a></li>
 
@@ -40,7 +41,7 @@
 				</div>
 
 				<div class="row">
-					<div id="banner"><img src="https://dummyimage.com/980x400/000/fff.jpg"></div>
+					<div id="banner"><img src="images/banner1.jpg" width="100%"></div>
 				</div>
 			</div>
 			<div id="main">
@@ -50,7 +51,7 @@
 						<div class="fleft w33">
 							<div class="box">
 							<h1>titulo</h1>
-								<img class="imgborder" src="https://dummyimage.com/320x300/000/fff.jpg">							
+								<img class="imgborder" src="images/foto1.jpg" width="100%">							
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla erat, mattis sed quam ut, volutpat facilisis urna. Aliquam ut.</p>
 								<a href="#">leia mais</a>
 							</div>
@@ -59,16 +60,16 @@
 						<div class="fleft w33">
 							<div class="box">
 							<h1>titulo</h1>
-								<img class="imgborder" src="https://dummyimage.com/320x300/000/fff.jpg">							
+								<img class="imgborder" src="images/foto2.jpg" width="100%">							
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla erat, mattis sed quam ut, volutpat facilisis urna. Aliquam ut.</p>
 								<a href="#">leia mais</a>
 							</div>
 						</div>
 
 						<div class="fleft w33">
-							<div class="box ">
+							<div class="box">
 							<h1>titulo</h1>
-								<img class="imgborder" src="https://dummyimage.com/320x300/000/fff.jpg">							
+								<img class="imgborder" src="images/foto4.jpg" width="100%">							
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla erat, mattis sed quam ut, volutpat facilisis urna. Aliquam ut.</p>
 								<a href="#">leia mais</a>
 							</div>
@@ -81,7 +82,7 @@
 					<div class="fleft w50" >
 						<div class="box" >
 						<h1>titulo</h1>
-							<img class="imgborder" src="https://dummyimage.com/320x300/000/fff.jpg">
+							<img class="imgborder" src="images/foto3.jpg" width="100%">
 
 							<p style="padding: 10px 80px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla erat, mattis sed quam ut, volutpat facilisis urna. Aliquam ut.</p>
 							<a href="#">leia mais</a>
@@ -89,11 +90,12 @@
 					</div>
 
 					<div class="fleft w50">
-						<div class="box" >
+					<div class="clear"></div>
+						<div class="box">
 						<h1>titulo</h1>
-							<img class="imgborder" src="https://dummyimage.com/320x300/000/fff.jpg">						
+							<img class="imgborder" src="images/foto5.jpg" width="100%">						
 							<p style="padding: 10px 80px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla erat, mattis sed quam ut, volutpat facilisis urna. Aliquam ut.</p>
-							<a href="#">leia mais</a>
+							<a href="#" >leia mais</a>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -101,7 +103,7 @@
 			</div>
 			<div id="footer">
 				<div class="container">
-					<div class="row bloco">
+					<div class="row" style="background: #300A8F;" id="pie">
 
 						<div class="fleft w33">
 						<div class="clear"></div>
@@ -114,7 +116,7 @@
 						</div>
 
 						<div class="fleft w33">
-						<div class="clear"></div>
+						
 							
 							<div class="box" >								
 								<h1>titulo</h1>
@@ -136,18 +138,21 @@
 
 					</div>
 
-					<div class="row ultimo" style="background: #0DDD11">
+					<div class="row" style="background: #0DDD11">
 						<div class="fleft w10">
-							<div id="redes" style="padding:20px">
+						<div class="clear"></div>
+							<div id="redes">
 								<ul>
-									<a href="#"> <img src="images/facebook.JPG" width="30px"></a>
-									<a href="#"><img src="images/twitter.jpg" width="30px"></a>
-									<a href="#"><img src="images/instagram.JPG" width="30px" ></a>
+									<a href="#" class="fa fa-facebook-official"></a>
+									<a href="#" class="fa fa-twitter-square"></a>
+									<a href="#" class="fa fa-instagram"></a>
 								</ul>
 							</div>
 						</div>
-						<div class="fleft w50 texto2">
-							<p>texto</p>
+						<div class="fright w60 texto2">
+						
+							<p>Copyright	2017	All rights reserved by Lorem Ipsum .	Privacy Policy</p>
+							
 						</div>
 						<div class="clear"></div>
 					</div>
