@@ -1,0 +1,12 @@
+.boton
+{
+	display: inline-block; 
+	background:  #300A8F;	
+	color:white; 
+	border-radius: 10px;
+	padding: 7px 10px; 
+	text-decoration: none; 
+	align-content: center;
+}
+.boton:hover {background:  #0DDD11; color:#ffffff;; }
+.bgpurple{background: #300A8F; color:#ffffff;}
