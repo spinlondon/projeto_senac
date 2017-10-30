@@ -30,6 +30,7 @@ div#page {text-align: center;}
 /*div#page div#header div{display:inline-block;}*/
 div#logo {min-height: 150px;}
 div#contacts {background: white; color: #300A8F;}
+div#contacts i {font-size: 20pt;}
 
 div#menu {text-align: left;}
 div#menu  li { display: inline-block; padding: 10px;}
